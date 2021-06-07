@@ -11,6 +11,8 @@ import { PostsComponent } from './posts/posts.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NeighbourhoodComponent } from './neighbourhood/neighbourhood.component';
 import { BusinessComponent } from './business/business.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BusinessComponent } from './business/business.component';
     PostsComponent,
     ProfileComponent,
     NeighbourhoodComponent,
-    BusinessComponent
+    BusinessComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
