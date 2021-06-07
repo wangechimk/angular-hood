@@ -45,6 +45,7 @@
   .hero__btn {
     border: 2px solid #fafafa;
     display: inline-block;
+    color: whitesmoke;
   }
   .hero__btn:hover {
     background-color: #fafafa;
@@ -228,6 +229,7 @@
     border: 2px solid #fafafa;
     position: relative;
     z-index: 2;
+    color: whitesmoke;
   }
   .cta__btn:hover {
     background-color: #fafafa;
